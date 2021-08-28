@@ -1,3 +1,4 @@
+window.onload = function(){
 let video = document.querySelector('.video')
 let videoPlayer = document.querySelector('.video_player')
 let playBtn = document.querySelector('#play')
@@ -70,3 +71,5 @@ videoPlayer.addEventListener('mouseleave', ()=>{
     progress.style.opacity = '0'
     progressContainer.style.transition = 'all .6s'
 })
+
+}
